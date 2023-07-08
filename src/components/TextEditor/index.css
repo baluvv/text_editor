@@ -1,0 +1,40 @@
+.container-card {
+  height: 100%;
+  width: 90%;
+  padding: 20px;
+  background-color: #1b1c22;
+  display: flex;
+  border-radius: 5px;
+}
+.img-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 22px;
+}
+.img {
+  width: 70%;
+  height: 70%;
+  align-self: center;
+}
+.text-container {
+  width: 50%;
+  height: 100%;
+}
+.buttons-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #334155;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
